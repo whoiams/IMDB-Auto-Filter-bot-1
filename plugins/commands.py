@@ -70,7 +70,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton('🤖  Use Our Bots 🤖', "https://t.me/bots_showcase")
                     ],
                     [
-                        InlineKeyboardButton('🔍 Series Sequest Group 🔎', 'https://t.me/series_showcase")
+                        InlineKeyboardButton('🔍 Series Sequest Group 🔎', "https://t.me/series_showcase")
                     ]
                     ]
                 await bot.send_cached_media(
