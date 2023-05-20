@@ -67,10 +67,10 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🤖  Use Our Bots 🤖', https://t.me/bots_showcase')
+                        InlineKeyboardButton('🤖  Use Our Bots 🤖', "https://t.me/bots_showcase")
                     ],
                     [
-                        InlineKeyboardButton('🔍 Series Sequest Group 🔎', https://t.me/series_showcase')
+                        InlineKeyboardButton('🔍 Series Sequest Group 🔎', 'https://t.me/series_showcase")
                     ]
                     ]
                 await bot.send_cached_media(
